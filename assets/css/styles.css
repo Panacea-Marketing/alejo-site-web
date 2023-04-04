@@ -1049,6 +1049,17 @@ Sidenav
     font-weight: 700;
     position: absolute;
 }
+.logo-header{
+    width: 300px;
+    height: 120px;
+}
+
+
+.logo-menu {
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+}
 /*
 * Sidenav Menu
 */

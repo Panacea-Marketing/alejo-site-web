@@ -1060,6 +1060,11 @@ Sidenav
     width: 200px;
     height: 100px;
 }
+@media screen and (max-width: 480px){
+    header .div .img {
+        max-width: 50px;
+    }
+}
 /*
 * Sidenav Menu
 */
@@ -2070,7 +2075,7 @@ Services
     width: 100%;
     height: 100%;
     position: absolute;
-    padding: 30px;
+    padding: 20px;
 }
 .section-services-1 .item .icon {
     top: 15px;
@@ -2085,7 +2090,7 @@ Services
     left: 3px;
     z-index: 3;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 10px;
     position: relative;
 }
 .section-services-1 .item:hover {

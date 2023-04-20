@@ -1052,6 +1052,8 @@ Sidenav
 .logo-header{
     width: 300px;
     height: 120px;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -1066,12 +1068,12 @@ Sidenav
     width: 500px;
     border: 1px;
 }
-.banner-2{
+/* .banner-2{
     position: absolute;
     bottom: 0;
     left: 0;
     margin: 0;
-}
+} */
 
 @media screen and (max-width: 480px){
     header .div .img {
@@ -1496,7 +1498,7 @@ Hero
     font-weight: 700;
     position: relative;
     display: inline-block;
-    margin: 7px 15px 20px;
+    margin: 10px 15px 20px;
 }
 .section-hero .hero-icon i {
     top: 6px;

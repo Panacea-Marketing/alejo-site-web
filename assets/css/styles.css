@@ -1060,6 +1060,19 @@ Sidenav
     width: 200px;
     height: 100px;
 }
+.banner{
+    position: relative;
+    height: 200px;
+    width: 500px;
+    border: 1px;
+}
+.banner-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+
 @media screen and (max-width: 480px){
     header .div .img {
         max-width: 50px;

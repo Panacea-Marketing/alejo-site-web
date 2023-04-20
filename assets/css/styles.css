@@ -974,6 +974,104 @@ Header
         display: none;
     }
 }
+-----------------------------------
+
+.logos-menu{
+    display: flex;
+    justify-content: center; /* para alinear horizontalmente los elementos al centro */
+    align-items: center; /* para alinear verticalmente los elementos al centro */
+}
+
+.site-header .header-follow-menu {
+    top: 50%;
+    left: 30px;
+    width: 20px;
+    height: 200px;
+    position: fixed;
+    margin-top: -100px;
+    border: none;
+    outline: none;
+}
+.site-header .header-follow-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none !important;
+}
+.site-header .header-follow-menu ul li {
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all 300ms;
+    list-style: none !important; /* Agregar esta regla */
+}
+.site-header .header-follow-menu ul li:hover {
+    transform: scale(1.5, 1.5);
+}
+.site-header .header-follow-menu p {
+    top: 70px;
+    left: -24px;
+    width: 68px;
+    height: 20px;
+    color: var(--base-1);
+    font-size: 12px;
+    line-height: 1.2;
+    white-space: nowrap;
+    position: relative;
+    transform: rotate(-90deg);
+}
+.site-header .header-follow-menu p:after {
+    top: 9px;
+    right: -48px;
+    width: 40px;
+    height: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: var(--base-1);
+}
+@media (max-width: 1024px) {
+    .site-header .header-logo {
+        top: 15px;
+        left: 15px;
+    }
+    .site-header .header-menu {
+        top: 15px;
+        right: 15px;
+    }
+    .site-header .header-follow-menu {
+        left: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .site-header:after {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        opacity: .75;
+        content: '';
+        position: absolute;
+        background-color: var(--primary);
+    }
+    .site-header .header-logo {
+        top: 14px;
+        left: 18px;
+    }
+    .site-header .header-menu {
+        top: 7px;
+        right: 10px;
+    }
+    .site-header .header-follow-menu {
+        left: 10px;
+    }
+}
+@media (max-width: 720px) {
+    .site-header .header-follow-menu {
+        display: none;
+    }
+}
+
 /*------------------------------------
 Footer
 ------------------------------------*/
@@ -1040,6 +1138,8 @@ Sidenav
     overflow: hidden;
     background-color: var(--primary);
     transition: all 0.45s;
+    overflow-y: auto;
+    max-height: 400px;
 }
 .site-sidenav .sidenav-menu .logo {
     top: 20px;
@@ -1880,6 +1980,15 @@ Posts / Blog
     margin-right: 6px;
     display: inline-block;
 }
+#redes-sociales img {
+    display: inline-block;
+    width: 100px; /*ajustar el ancho según el tamaño de tus logos*/
+    height: 100px; /*ajustar la altura según el tamaño de tus logos*/
+    margin-right: 50px; /*espacio entre los logos*/
+    margin: 75px;
+    
+}
+
 /*------------------------------------
 Skills
 ------------------------------------*/

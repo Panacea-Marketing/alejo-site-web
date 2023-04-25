@@ -976,10 +976,10 @@ Header
 }
 -----------------------------------
 
-.logos-menu{
-    display: flex;
-    justify-content: center; /* para alinear horizontalmente los elementos al centro */
-    align-items: center; /* para alinear verticalmente los elementos al centro */
+.header-follow-menu .logos-menu div a img{
+    max-width: 50px; /* ajusta el valor según tus necesidades */
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .site-header .header-follow-menu {
@@ -1983,10 +1983,10 @@ Posts / Blog
 }
 #redes-sociales img {
     display: inline-block;
-    width: 100px; /*ajustar el ancho según el tamaño de tus logos*/
-    height: 100px; /*ajustar la altura según el tamaño de tus logos*/
+    width: 70px; /*ajustar el ancho según el tamaño de tus logos*/
+    height: 70px; /*ajustar la altura según el tamaño de tus logos*/
     margin-right: 50px; /*espacio entre los logos*/
-    margin: 75px;
+    margin: 25px;
     align-items: center;
     
 }

@@ -1820,6 +1820,7 @@ Hero
     position: fixed;
     background: var(--base-0);
 }
+
 @media (max-width: 992px) {
 
 }
@@ -1986,6 +1987,7 @@ Posts / Blog
     height: 100px; /*ajustar la altura según el tamaño de tus logos*/
     margin-right: 50px; /*espacio entre los logos*/
     margin: 75px;
+    align-items: center;
     
 }
 

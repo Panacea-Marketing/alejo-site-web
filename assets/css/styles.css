@@ -1168,6 +1168,22 @@ Sidenav
     width: 500px;
     border: 1px;
 }
+
+.section section-hero section-hero-6 overlay-image {
+    background-color: rgb(255, 196, 0);
+    height: 100%;
+}
+.background{
+    background-color: rgb(255, 217, 0);
+}
+.alejo-background{
+    height: 100%;
+    width: 100%;
+    margin-left: 20%;
+}
+.styles-about .titulo{
+    font-size: 15px;
+}
 /* .banner-2{
     position: absolute;
     bottom: 0;

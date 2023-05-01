@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-    <title>Alejandro Eder - Personal Portfolio</title>
+    <title>Alejandro Eder - Revivamos Cali</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1">
     <meta name="description" content="">
@@ -39,6 +39,21 @@
   height: 42px;
  
 }
+
+ #redes-sociales img {
+        max-width: 32px; 
+        max-height: 32px;
+ }
+
+ 
+    .twitter-timeline {
+        width: auto;
+    }
+    @media (min-width: 768px) {
+        .twitter-widget {
+            width: 30%;
+        }
+    }
 </style>
 </head>
 <body>
@@ -62,7 +77,7 @@
     <!-- Start Header -->
     <header class="site-header">
         <div class="header-logo">
-            <a href="#" title="Miro - HTML5 Template"></a>
+            <a href="#" title="Alejo Eder - Revivamos Cali"></a>
             <img class="logo-header" src="assets/images/Alejo-Eder/new-logo.png" alt="">
         </div>
         <div class="header-menu button-open-sidenav">
@@ -153,7 +168,7 @@
     <!-- Start Wrapper -->
     <div id="site-wrapper">
         <!-- Start Hero -->
-        <section  class="section section-hero section-hero-6 overlay-image">
+        <section  class="section section-hero section-hero-6 overlay-image background">
         <div class="background">
             <img class="alejo-background"  src="assets/images/Alejo-Eder/WebFondo.png" alt="">
             <div class="hero-content">
@@ -164,8 +179,8 @@
                             <div class="hero-box">
                                 <p class="hero-icon"><span>Revivamos Cali</span></p>
                                 <h1>Alejandro Eder</h1>
-                                <div class="banner"><h1 class="banner-2" style="font-size: 20px; width: 80%;">Los que deben tener miedo son los delincuentes, no los ciudadanos.</h1></div>
-                                <a href="#" class="button button-md button-primary">Hacéte voluntario</a>
+                                <div class="banner"><h1 class="banner-2" style="font-size: 20px; width: 60%;">Los que deben tener miedo son los delincuentes, no los ciudadanos.</h1></div>
+                                <a href="https://app.calimas.co" class="button button-md button-primary">Hacéte voluntario</a>
                                 <a href="#about" class="button button-md button-dark">Mi Historia</a>
                                 
                             </div>
@@ -539,7 +554,8 @@
                             <div class="divider divider-1-reverse divider-1-1"></div>
                             <div class="divider divider-1-reverse divider-1-2"></div>
                         </div>
-                        <div style=" width: auto;" id="redes-sociales">
+                        <div style=" display: flex; justify-content: space-around;
+        width: 100%;" id="redes-sociales">
                             <a href="https://www.facebook.com/alejoederg" target="_blank"><img src="assets/images/Alejo-Eder/logo-facebook.png" alt="Facebook"></a>
                             <a href="https://twitter.com/alejoeder" target="_blank"><img src="assets/images/Alejo-Eder/logo-twitter.png" alt="Twitter"></a>
                             <a href="https://www.instagram.com/alejoeder/" target="_blank"><img src="assets\images\Alejo-Eder\logo-instagram.png" alt="Instagram"></a>
@@ -547,7 +563,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="width: 45%; margin-left: 27%;"><a class="twitter-timeline" data-lang="es" data-theme="dark" href="https://twitter.com/alejoeder?ref_src=twsrc%5Etfw">Tweets by alejoeder</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                <div style="width:auto; "><a class="twitter-timeline" data-lang="es" data-theme="light" data-tweet-limit="5" href="https://twitter.com/alejoeder?ref_src=twsrc%5Etfw">Tweets by alejoeder</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
                 <!-- <div class="container">
                     <div class="data-filters">
                         <ul class="data-filters-links">
@@ -999,7 +1015,7 @@
     <div class="miro-demo-toggle">
         <i class="ti-settings"></i>
     </div>
-</div> -->
+</div>
 <script>
     $(".miro-demo .miro-demo-close").on("click", function () {
         $(".miro-demo").removeClass("active");
